@@ -3,8 +3,11 @@ import App from "../App";
 import Navbar from "../Components/Navbar";
 import Blog from "../Pages/Blog";
 import Nosotros from "../Pages/acercade";
-import Login from "../Pages/Login";
+import Login from "../Pages/auth/login";
 import Comentarios from "../Pages/comentarios";
+import Catalogo from "../Pages/catalogo";
+import Register from "../Pages/auth/register";
+
 export const routes = createBrowserRouter([
   {
     path: "/",
@@ -27,9 +30,19 @@ export const routes = createBrowserRouter([
         element: <Comentarios/>,
       },
       {
-        path: "/Login",
-        element: <Login/>,
+        path: "/login",
+        element: <Login />,
       },
+      {
+        path: "/register",
+        element: <Register />,
+      },
+      
+      {
+        path: "/catalogo",
+        element: <Catalogo />,
+      }
+
     ],
  
     

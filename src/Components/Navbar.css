@@ -7,10 +7,14 @@
     background-color: #291784
 }
 
-.title{
+.title {
     color: white;
 }
 
 .bar{
     color: aliceblue;
+}
+
+.nav-dropdown .nav-link {
+color: white;
 }

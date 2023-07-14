@@ -16,7 +16,7 @@ function Footer() {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
         />
       </header>
-      <footer class="text-center text-lg-start bg-[#51355A] text-muted">
+      <footer class="text-center text-lg-start bg-[#19439d] text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div class="me-5 d-none d-lg-block">
             
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </section>
         <section class="">
-          <div class="container text-center text-md-start mt-5 text-lime-50">
+          <div class="container text-center text-md-start mt-5 text-white">
            
             <div class="row mt-3">
 
