@@ -95,7 +95,12 @@ function NavbarComponent() {
                   Sobre nosotros
                 </Link>
               </Nav.Link>
-              <NavDropdown
+              <Nav.Link className="mt-0 mr-4 mb-0 ml-4">
+                <Link to={"/catalogo"} className="text-decoration-none text-white">
+                  Catálogo de productos
+                </Link>
+              </Nav.Link>
+              {/* <NavDropdown
                 title="Comprar por categoria"
                 id="navbarScrollingDropdown"
                 className="title"
@@ -107,12 +112,8 @@ function NavbarComponent() {
                 <NavDropdown.Item href="#action4">Adaptado Inclusivo</NavDropdown.Item>
                 <NavDropdown.Item href="#action5">Fuerza de la mano</NavDropdown.Item>
                 <NavDropdown.Item href="#action5">Balance</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link>
-                <Link to={"/Busqueda"} className="text-decoration-none text-white">
-                  Busqueda personalizada
-                </Link>
-              </Nav.Link>
+              </NavDropdown> */}
+            
               <Nav.Link>
                 <Link to={"/comentarios"} className="text-decoration-none text-white">
                   Contactanos

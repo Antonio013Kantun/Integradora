@@ -6,9 +6,9 @@ const Catalogo = () => {
   const [compraRealizada, setCompraRealizada] = useState(false);
   const [productos, setProductos] = useState([
     {
-      nombre: 'Boy kisser',
+      nombre: 'Chewigem Toggle',
       imagen:
-        'https://i.imgflip.com/7e3cc1.png',
+        'https://images.schoolspecialty.com/images/2103437_A_ecommfullsize.jpg',
       precio: 4.99,
       categoria: 'Masticación',
     },
@@ -40,8 +40,8 @@ const Catalogo = () => {
         categoria: 'Balance',
       },
       {
-        nombre: 'Verda q si',
-        imagen: 'https://i.imgflip.com/20kq3p.jpg?a468816',
+        nombre: 'Bullseye Beanbag',
+        imagen: 'https://images.schoolspecialty.com/images/2120078_A_ecommfullsize.jpg',
         precio: 7.99,
         categoria: 'Adaptado Inclusivo',
       },
@@ -53,9 +53,9 @@ const Catalogo = () => {
         categoria: 'Balance',
       },
       {
-        nombre: 'Die furry',
-        imagen: 'https://dthezntil550i.cloudfront.net/8w/latest/8w2101050725047800018459409/1280_960/24c3310a-463b-4e8f-885e-5b45e7403c80.png',
-        precio: 24.99,
+        nombre: 'Vibrating Tube',
+        imagen: 'https://images.schoolspecialty.com/images/2119844_A_ecommfullsize.jpg',
+        precio: 22.99,
         categoria: 'Fuerza de la mano',
       },
       {
@@ -124,8 +124,8 @@ const Catalogo = () => {
         categoria: 'Juguetes para bebes',
       },
       {
-        nombre: 'Nuwu',
-        imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQx07KA6JPtn7rLOyJryYdhxcZ6BUxanTi2fhPOubZoMQZQhxR09CfuzssO5TjnuDiYo&usqp=CAU',
+        nombre: 'Twiddle Crawler',
+        imagen: 'https://images.schoolspecialty.com/images/2121114_A_ecommfullsize.jpg',
         precio: 5.99,
         categoria: 'Fuerza de la mano',
       },
@@ -134,6 +134,12 @@ const Catalogo = () => {
         imagen: 'https://www.thetherapystore.com.au/assets/full/LTW6.jpg?20200714030727',
         precio: 8.99,
         categoria: 'Adaptado Inclusivo',
+      },
+      {
+        nombre: 'Petzzz Cachorro',
+        imagen: 'https://images.schoolspecialty.com/images/2122048_A_ecommfullsize.jpg',
+        precio: 15.99,
+        categoria: 'Juguetes para bebes',
       },
       {
         nombre: 'Noodlies',
